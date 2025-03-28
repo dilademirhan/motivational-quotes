@@ -1,0 +1,98 @@
+body {
+    
+        background-image: url('images/indir.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  
+  .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 3rem; 
+    font-weight: bold; 
+    font-family: 'Dancing Script', cursive; 
+    text-align: center; 
+    color: #070707; 
+    text-shadow: 2px 2px 5px rgb(244, 242, 242); 
+}
+
+  
+  #quote-box {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 4rem;
+    border-radius: 20px;
+    min-height: 300px;
+    width: 80vw;
+    max-width: 900px;
+    font-size: 3rem;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+  }
+  #quote {
+    font-size: 1.5rem; 
+    font-weight: normal; 
+    font-style: italic; 
+}
+
+button {
+    background: linear-gradient(45deg, #ff7f50, #ff1493); 
+    border: none; 
+    padding: 15px 40px; 
+    border-radius: 25px; 
+    color: #fff; 
+    font-size: 1.1rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    box-shadow: 0 4px 10px rgba(177, 32, 32, 0.889), 0 6px 20px rgba(0, 0, 0, 0.3); 
+}
+
+button:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 15px rgba(239, 239, 239, 0.937), 0 8px 25px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+
+  
